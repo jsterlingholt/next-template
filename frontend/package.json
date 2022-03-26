@@ -1,0 +1,31 @@
+{
+  "name": "stay-connected",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@emotion/babel-preset-css-prop": "^11.2.0",
+    "@emotion/core": "^11.0.0",
+    "@emotion/css": "^11.7.1",
+    "@emotion/react": "^11.8.2",
+    "@emotion/server": "^11.4.0",
+    "@emotion/styled": "^11.8.1",
+    "next": "12.1.0",
+    "normalize.css": "^8.0.1",
+    "npm": "^8.5.4",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "react-icons": "^4.3.1",
+    "reset-css": "^5.0.1"
+  },
+  "devDependencies": {
+    "@emotion/babel-plugin": "^11.7.2",
+    "eslint": "8.10.0",
+    "eslint-config-next": "12.1.0"
+  }
+}

@@ -1,0 +1,39 @@
+@import "reset.css";
+@import "normalize.css";
+
+@import "components/header.css";
+@import "components/talking-points.css";
+@import "components/feedback.css";
+
+html {
+    background: purple;
+    overflow-x: none;
+}
+
+.A4 {
+    aspect-ratio: 1/1.4;
+    width: 100%;
+    background: pink;
+    -webkit-print-color-adjust: exact !important;
+    box-shadow: 0 0 10px 10px black;
+}
+
+@media print {
+    html {
+        background: blue;
+    }
+}
+
+
+
+/* A4 with bleed:
+303 x 216 mm
+3579 x 2551 px
+
+A4 without bleed:
+297 x 210 mm
+3508 x 2480 px
+
+difference: 
+71 px bleed
+*/
